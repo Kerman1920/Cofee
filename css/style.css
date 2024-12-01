@@ -1,0 +1,360 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.navbar{
+    margin: auto;
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 460px;
+}
+
+.navbar__link{
+    /* Create your plan */
+
+
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height, or 125% */
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+
+color: #83888F;
+
+
+}
+
+.navbar__link:hover{
+    /* ABOUT US */
+
+
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height, or 125% */
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+
+color: #24272b;
+
+
+}
+
+.intro{
+    margin-top: 80px; /* Отступ равный высоте navbar */
+    padding: 20px; /* Добавляем внутренние отступы для комфорта */
+    width: 1280px;
+    height: 500px;
+    margin: 50px auto;
+    background-image: url("../img/Bitmap.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro__title{
+
+    /* Great coffee made si */
+
+width: 500px;
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+/* or 100% */
+
+color: #FEFCF7;
+
+
+}
+
+
+.intro__text{
+    /* Start your mornings */
+width: 450px;
+margin-top: 35px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+color: #FEFCF7;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+
+}
+
+.intro__left{
+    width: 500px;
+    height: 300px;
+    margin-top: 40px;
+    margin: 40px 40px;
+
+}
+
+.intro__btn{
+    /* Group 3 */
+
+margin-top: 20px;
+width: 190px;
+height: 48px;
+
+
+
+
+/* Rectangle */
+
+
+
+background: #66D2CF;
+border-radius: 6px;
+
+
+/* Create your plan */
+
+
+
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 139% */
+text-align: center;
+
+color: #FEFCF7;
+
+border: none;
+}
+
+
+.our__collection {
+    text-align: center;
+    padding: 80px 20px;
+    
+}
+  
+.our__collection__title {
+    font-family: 'Fraunces', serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.1); /* Полупрозрачный текст */
+    margin-bottom: 40px;
+    position: relative;
+}
+  
+.our__collection__cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+  
+.card {
+    background-color: #FFFFFF;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+  
+.card__image {
+    width: 255px;
+    height: 193px;
+    margin-bottom: 20px;
+}
+  
+.card__title {
+   /* Group 13 */
+
+
+/* Gran Espresso */
+
+margin-top: 70px;
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+text-align: center;
+
+color: #333D4B;
+
+
+
+}
+  
+.card__text {
+    /* Light and flavorful */
+
+
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: center;
+
+color: #333D4B;
+
+
+}
+  
+
+
+
+
+
+
+  
+
+.why__choose-us {
+    background-color: #2c343e; /* Тёмно-синий цвет фона */
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+}
+  
+.why__choose-us h2 {
+    /* Why choose us? */
+
+
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+text-align: center;
+
+color: #FEFCF7;
+
+
+    margin-bottom: 15px;
+}
+  
+.why__text{
+   /* A large part of our */
+
+width: 540px;
+height: 80px;
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: center;
+
+color: #FEFCF7;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+
+    margin: 0 auto 40px auto;
+ 
+}
+  
+.why__cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+  
+.why__card {
+    background-color: #0e8784; /* Цвет карточек */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.why__card .icon {
+    margin-bottom: 15px;
+}
+  
+.why__card .icon img {
+    width: 50px;
+    height: 50px;
+}
+  
+.why__card__title {
+    /* Best quality */
+
+
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+text-align: center;
+
+color: #FEFCF7;
+
+
+    margin-bottom: 10px;
+  
+}
+  
+.why__card p {
+    /* Discover an endless */
+
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: center;
+
+color: #FEFCF7;
+
+
+}
+  
