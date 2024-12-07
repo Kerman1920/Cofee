@@ -15,7 +15,7 @@ a{
 
 .wrapper{
     width: 100%;
-    background-color: antiquewhite;
+    background-color: #FEFCF7;
 }
 
 .navbar{
@@ -357,4 +357,138 @@ color: #FEFCF7;
 
 
 }
+
+.article{
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.article__title{
+  /* How it works */
+
+margin-right: 990px;
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+color: #83888F;
+
+
+}
+
+.article__cards{
+  margin-left: 220px;
+  width: 1045px;
+  height: 450px;
+  display: flex;
+  gap: 90px;
+}
   
+.article__card{
+  width: 285px;
+  height: 355px;
+}
+.article__number{
+/* 01 */
+
+margin-right: 300px;
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+/* identical to box height, or 100% */
+
+color: #FDD6BA;
+
+
+}
+
+
+.article__card-title{
+  /* Pick your coffee */
+  width: 230px;
+  margin-right: 20px;
+  margin-top: 20px;
+
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+/* or 112% */
+
+color: #333D4B;
+
+
+}
+
+.article__card-text{
+  /* Select from our evol */
+
+margin-top: 30px;
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+color: #333D4B;
+
+
+}
+
+
+.article img{
+  margin-right: 350px;
+  /* Group 30 */
+margin-top: 30px;
+margin-bottom: 20px;
+width: 791px;
+height: 31px;
+
+
+}
+
+.article__button{
+  /* Group 3 */
+
+
+width: 217px;
+height: 56px;
+
+
+
+
+/* Rectangle */
+
+background: #66D2CF;
+border-radius: 6px;
+
+
+/* Create your plan */
+
+
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height, or 139% */
+text-align: center;
+
+color: #FEFCF7;
+border: none;
+
+margin-right: 1000px;
+
+
+}
